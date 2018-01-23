@@ -8,7 +8,7 @@ QT       += core gui opengl
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = Topology
+TARGET = Triangulation
 TEMPLATE = app
 
 
@@ -17,12 +17,12 @@ SOURCES += main.cpp\
     gldisplay.cpp \
     mesh.cpp \
     triangle.cpp \
-    vertrex.cpp
+    vertex.cpp
 
 HEADERS  += mainwindow.h \
     gldisplay.h \
     mesh.h \
     triangle.h \
-    vertrex.h
+    vertex.h
 
 FORMS    += mainwindow.ui
